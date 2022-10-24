@@ -1,0 +1,39 @@
+.superior {
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-top: 0.3125rem;
+    background: white;
+}
+
+.superior p:nth-of-type(1) {
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--bright-yellow);
+    margin-bottom: 1rem;
+}
+
+.superior p:nth-of-type(2) {
+    line-height: 1.625rem;
+    color: var(--grayish-blue);
+    font-size: 14px;
+}
+
+.esquerda {
+    background: var(--cyan);
+    padding: 1.5rem;
+}
+.esquerda p:nth-of-type(1) {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.esquerda p:nth-of-type(2) {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mes {
+    display: flex;
+    align-items: ;
+}
