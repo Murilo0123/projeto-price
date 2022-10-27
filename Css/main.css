@@ -22,7 +22,7 @@
     background: var(--cyan);
     padding: 1.5rem;
 }
-.esquerda p:nth-of-type(1) {
+.mes p:nth-of-type(1) {
     color: white;
     font-size: 32px;
     font-weight: 700;
@@ -31,9 +31,29 @@
 
 .esquerda p:nth-of-type(2) {
     color: rgba(255, 255, 255, 0.5);
+    margin-left: 0.75rem;
 }
 
 .mes {
     display: flex;
-    align-items: ;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.esquerda>p {
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button {
+    padding-block: 1rem;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.125rem;
+    border: 0;
+    background: var(--bright-yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
 }
