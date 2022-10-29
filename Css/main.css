@@ -1,7 +1,7 @@
 .superior {
     padding-inline: 1.5rem;
     padding-block: 2rem;
-    border-top: 0.3125rem;
+    border-radius: 5px 5px 0px 0px;
     background: white;
 }
 
@@ -21,6 +21,7 @@
 .esquerda {
     background: var(--cyan);
     padding: 1.5rem;
+    border-bottom: 5px;
 }
 .mes p:nth-of-type(1) {
     color: white;
@@ -56,4 +57,16 @@
     background: var(--bright-yellow);
     border-radius: 5px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+
+.direita {
+    background: var(--light-cyan);
+    padding: 1.5rem;
+    border-bottom: 5px;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
 }
